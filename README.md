@@ -24,7 +24,7 @@ STORE_PORT=6379
 STORE_THROTTLE_DB=2
 ```
 
-- Make sure you are returning the execution context
+- Make sure you are returning the execution context.
 
 ```typescript
 GraphQLModule.forRoot({
@@ -84,7 +84,7 @@ export class AppResolver {
 
 - `RateLimit`
 
-Takes `limit` `ttl` arguments in given order
+Takes `limit` `ttl` arguments in given order.
 
 Argument  | Type  | Description 
 ---    | ----  | -------
