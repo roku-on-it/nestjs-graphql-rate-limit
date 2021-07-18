@@ -34,7 +34,7 @@ GraphQLModule.forRoot({
 })
 ```
 
-- Import `GqlThrottleModule` module into your Nest project. (Assuming you will throttle your Query & Mutations globally,
+- Import `GqlRateLimitModule` module into your Nest project. (Assuming you will throttle your Query & Mutations globally,
   importing into `AppModule` is highly recommended for availability reasons)
 
 Example:
@@ -45,11 +45,11 @@ import { Module } from '@nestjs/common';
 import { GraphQLModule } from '@nestjs/graphql';
 import { AppResolver } from 'src/app.resolver';
 import { GraphQLError } from 'graphql';
-import { GqlThrottleModule } from 'nestjs-graphql-rate-limit';
+import { GqlRateLimitModule } from 'nestjs-graphql-rate-limit';
 
 @Module({
   imports: [
-    GqlThrottleModule,
+    GqlRateLimitModule,
     GraphQLModule.forRoot({
       autoSchemaFile: true,
       context: ({ req, res }) => ({ req, res }),

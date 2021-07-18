@@ -19,4 +19,4 @@ import { ThrottlerStorageRedisService } from '../service/throttler-storage-redis
   ],
   exports: [ThrottlerModule],
 })
-export class GqlThrottleModule {}
+export class GqlRateLimitModule {}

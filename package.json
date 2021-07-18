@@ -1,6 +1,6 @@
 {
   "name": "nestjs-graphql-rate-limit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rate Limit module with Redis storage support for NestJS GraphQL APIs",
   "author": "Oğuz Türkay <tyserract@gmail.com>",
   "license": "MIT",
