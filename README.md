@@ -4,12 +4,10 @@ A Rate Limit implementation for GraphQL APIs using NestJS
 
 ## Installation
 
----
 ```npm install nestjs-graphql-rate-limit```
 
 ## How to use it?
 
----
 
 - After installing the package, make sure you have Redis installed and running.
   See [Redis Docker Image](https://hub.docker.com/_/redis)
